@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">AsenDemo</string>
+    <string name="demo_main">Demo主页面</string>
+    <!-- -->
+    <string name="quickFindView">快速FindView</string>
+    <string name="testTextView">测试TextView</string>
+    <string name="testButton">测试Button</string>
+    <string name="testClick">测试点击</string>
+    <string name="testClick2">测试点击2</string>
+    <string name="openFragment">打开Fragment</string>
 </resources>

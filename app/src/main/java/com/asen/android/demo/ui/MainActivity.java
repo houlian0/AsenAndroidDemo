@@ -7,6 +7,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import com.asen.android.demo.R;
+import com.asen.android.demo.ui.afindview.AFindViewActivity;
 import com.asen.android.lib.base.module.activity.BaseActivity;
 import com.asen.android.lib.base.ui.quick.findview.AFindView;
 import com.asen.android.lib.base.ui.quick.findview.FindViewUtil;
@@ -52,13 +53,14 @@ public class MainActivity extends BaseActivity implements MainAdapter.OnMainItem
     @Override
     public void onClick(MainItem mainItem) {
         // 跳转到指定的Activity
-        Intent intent = new Intent(mContext, mainItem.getClass());
+        Intent intent = new Intent(mContext, mainItem.getCls());
         startActivity(intent);
     }
 
     // 初始化数据
     private void initMainDataList() {
         mDataList = new ArrayList<>();
+        mDataList.add(new MainItem("快速FindView介绍", AFindViewActivity.class));
     }
 
     private MainAdapter adapter = null;

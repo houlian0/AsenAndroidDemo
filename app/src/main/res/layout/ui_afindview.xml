@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvShowTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/testTextView" />
+
+    <Button
+        android:id="@+id/btnShowTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/testButton" />
+
+    <ImageView
+        android:id="@+id/imgShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnShowClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/testClick" />
+
+    <Button
+        android:id="@+id/btnShowClick2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/testClick2" />
+
+    <Button
+        android:id="@+id/btnFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/openFragment" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
