@@ -30,6 +30,7 @@
         <activity
             android:name=".ui.quickadapter.QuickAdapterActivity"
             android:label="@string/quickAdapter" />
+
     </application>
 
 </manifest>
