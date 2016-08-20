@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import com.asen.android.demo.R;
 import com.asen.android.demo.ui.afindview.AFindViewActivity;
 import com.asen.android.demo.ui.error.ErrorTestActivity;
+import com.asen.android.demo.ui.quickadapter.QuickAdapterActivity;
 import com.asen.android.lib.base.module.activity.BaseActivity;
 import com.asen.android.lib.base.ui.quick.findview.AFindView;
 import com.asen.android.lib.base.ui.quick.findview.FindViewUtil;
@@ -75,6 +76,7 @@ public class MainActivity extends BaseActivity implements MainAdapter.OnMainItem
         mDataList = new ArrayList<>();
         mDataList.add(new MainItem("快速FindView介绍", AFindViewActivity.class));
         mDataList.add(new MainItem("测试异常", ErrorTestActivity.class));
+        mDataList.add(new MainItem("快速适配器", QuickAdapterActivity.class));
 
     }
 

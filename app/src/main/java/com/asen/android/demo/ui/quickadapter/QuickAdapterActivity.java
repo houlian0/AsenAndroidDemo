@@ -1,10 +1,13 @@
 package com.asen.android.demo.ui.quickadapter;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.asen.android.demo.R;
 import com.asen.android.lib.base.module.activity.BaseActivity;
+import com.asen.android.lib.base.tool.util.ToastUtil;
 import com.asen.android.lib.base.ui.quick.findview.AFindView;
 import com.asen.android.lib.base.ui.quick.findview.FindViewUtil;
 
@@ -33,6 +36,17 @@ public class QuickAdapterActivity extends BaseActivity {
         FindViewUtil.getInstance(mContext).findViews(this, this);
         initAdapter();
         fillAdapter();
+        registerListener();
+    }
+
+    // 绑定监听
+    private void registerListener() {
+        lvShow.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                ToastUtil.showToast(mContext, mDataList.get(i));
+            }
+        });
     }
 
     // 初始化适配器

@@ -3,6 +3,7 @@ package com.asen.android.demo.ui.quickadapter;
 import android.content.Context;
 import android.widget.TextView;
 
+import com.asen.android.demo.R;
 import com.asen.android.lib.base.ui.quick.adapter.QuickHolderBaseAdapter;
 import com.asen.android.lib.base.ui.quick.findview.AFindView;
 
@@ -26,7 +27,7 @@ public class QuickAdapter extends QuickHolderBaseAdapter<String, QuickAdapter.Ho
      */
     public QuickAdapter(Context context, List<String> data) {
         // 第二个参数：放入对应的布局文件
-        super(context, android.R.layout.simple_list_item_1, data);
+        super(context, R.layout.ui_quickadapter_item, data);
     }
 
     @Override
@@ -38,12 +39,12 @@ public class QuickAdapter extends QuickHolderBaseAdapter<String, QuickAdapter.Ho
     @Override
     public void convert(Holder holder, String info, int position) {
         // 向控件上添加数据
-        holder.text1.setText(info);
+        holder.tvShow.setText(info);
     }
 
     // 存放控件的类，与AFindView共用，能实现快速FindView
     class Holder {
         @AFindView
-        TextView text1;
+        TextView tvShow;
     }
 }
