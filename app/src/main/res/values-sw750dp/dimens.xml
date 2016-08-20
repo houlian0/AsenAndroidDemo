@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 除以2乘以3 -->
+    <dimen name="dip_1">1dip</dimen>
+    <dimen name="dip_2">3dip</dimen>
+    <dimen name="dip_4">6dip</dimen>
+    <dimen name="dip_6">9dip</dimen>
+    <dimen name="dip_8">12dip</dimen>
+    <dimen name="dip_10">15dip</dimen>
+    <dimen name="dip_12">18dip</dimen>
+    <dimen name="dip_14">21dip</dimen>
+    <dimen name="dip_16">24dip</dimen>
+    <dimen name="dip_18">27dip</dimen>
+    <dimen name="dip_20">30dip</dimen>
+    <dimen name="dip_24">36dip</dimen>
+    <dimen name="dip_28">42dip</dimen>
+    <dimen name="dip_30">45dip</dimen>
+    <dimen name="dip_32">48dip</dimen>
+    <dimen name="dip_36">54dip</dimen>
+    <dimen name="dip_40">60dip</dimen>
+    <dimen name="dip_48">72dip</dimen>
+    <dimen name="dip_56">84dip</dimen>
+    <dimen name="dip_60">90dip</dimen>
+    <dimen name="dip_64">96dip</dimen>
+    <dimen name="dip_72">108dip</dimen>
+    <dimen name="dip_80">120dip</dimen>
+    <dimen name="dip_96">144dip</dimen>
+    <dimen name="dip_100">150dip</dimen>
+    <dimen name="dip_108">162dip</dimen>
+    <dimen name="dip_128">192dip</dimen>
+    <dimen name="dip_160">240dip</dimen>
+    <dimen name="dip_196">294dip</dimen>
+    <dimen name="dip_200">300dip</dimen>
+    <dimen name="dip_240">360dip</dimen>
+    <dimen name="dip_256">384dip</dimen>
+    <dimen name="dip_300">450dip</dimen>
+    <dimen name="dip_360">540dip</dimen>
+    <dimen name="dip_400">600dip</dimen>
+    <dimen name="dip_600">900dip</dimen>
+    <dimen name="dip_800">1200dip</dimen>
+
+    <!--  -->
+    <dimen name="sp_10">15sp</dimen>
+    <dimen name="sp_12">18sp</dimen>
+    <dimen name="sp_14">21sp</dimen>
+    <dimen name="sp_16">24sp</dimen>
+    <dimen name="sp_18">27sp</dimen>
+    <dimen name="sp_20">30sp</dimen>
+    <dimen name="sp_24">36sp</dimen>
+    <dimen name="sp_26">39sp</dimen>
+    <dimen name="sp_28">42sp</dimen>
+    <dimen name="sp_30">45sp</dimen>
+    <dimen name="sp_32">48sp</dimen>
+
+</resources>

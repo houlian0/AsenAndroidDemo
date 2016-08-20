@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 除以4乘以5 -->
+    <dimen name="dip_1">1dip</dimen>
+    <dimen name="dip_2">2.5dip</dimen>
+    <dimen name="dip_4">5dip</dimen>
+    <dimen name="dip_6">7.5dip</dimen>
+    <dimen name="dip_8">10dip</dimen>
+    <dimen name="dip_10">12.5dip</dimen>
+    <dimen name="dip_12">15dip</dimen>
+    <dimen name="dip_14">17.5dip</dimen>
+    <dimen name="dip_16">20dip</dimen>
+    <dimen name="dip_18">22.5dip</dimen>
+    <dimen name="dip_20">25dip</dimen>
+    <dimen name="dip_24">30dip</dimen>
+    <dimen name="dip_28">35dip</dimen>
+    <dimen name="dip_30">37.5dip</dimen>
+    <dimen name="dip_32">40dip</dimen>
+    <dimen name="dip_36">45dip</dimen>
+    <dimen name="dip_40">50dip</dimen>
+    <dimen name="dip_48">60dip</dimen>
+    <dimen name="dip_56">70dip</dimen>
+    <dimen name="dip_60">75dip</dimen>
+    <dimen name="dip_64">80dip</dimen>
+    <dimen name="dip_72">90dip</dimen>
+    <dimen name="dip_80">100dip</dimen>
+    <dimen name="dip_96">120dip</dimen>
+    <dimen name="dip_100">125dip</dimen>
+    <dimen name="dip_108">135dip</dimen>
+    <dimen name="dip_128">160dip</dimen>
+    <dimen name="dip_160">200dip</dimen>
+    <dimen name="dip_196">245dip</dimen>
+    <dimen name="dip_200">250dip</dimen>
+    <dimen name="dip_240">300dip</dimen>
+    <dimen name="dip_256">320dip</dimen>
+    <dimen name="dip_300">375dip</dimen>
+    <dimen name="dip_360">450dip</dimen>
+    <dimen name="dip_400">500dip</dimen>
+    <dimen name="dip_600">750dip</dimen>
+    <dimen name="dip_800">1000dip</dimen>
+
+    <!--  -->
+    <dimen name="sp_10">12.5sp</dimen>
+    <dimen name="sp_12">15sp</dimen>
+    <dimen name="sp_14">17.5sp</dimen>
+    <dimen name="sp_16">20sp</dimen>
+    <dimen name="sp_18">22.5sp</dimen>
+    <dimen name="sp_20">25sp</dimen>
+    <dimen name="sp_24">30sp</dimen>
+    <dimen name="sp_26">32.5sp</dimen>
+    <dimen name="sp_28">35sp</dimen>
+    <dimen name="sp_30">37.5sp</dimen>
+    <dimen name="sp_32">40sp</dimen>
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 乘以 0.75 -->
+    <dimen name="dip_1">0.75dip</dimen>
+    <dimen name="dip_2">1.5dip</dimen>
+    <dimen name="dip_4">3dip</dimen>
+    <dimen name="dip_6">4.5dip</dimen>
+    <dimen name="dip_8">6dip</dimen>
+    <dimen name="dip_10">7.5dip</dimen>
+    <dimen name="dip_12">9dip</dimen>
+    <dimen name="dip_14">10.5dip</dimen>
+    <dimen name="dip_16">12dip</dimen>
+    <dimen name="dip_18">13.5dip</dimen>
+    <dimen name="dip_20">15dip</dimen>
+    <dimen name="dip_24">18dip</dimen>
+    <dimen name="dip_28">21dip</dimen>
+    <dimen name="dip_30">22.5dip</dimen>
+    <dimen name="dip_32">24dip</dimen>
+    <dimen name="dip_36">27dip</dimen>
+    <dimen name="dip_40">30dip</dimen>
+    <dimen name="dip_48">36dip</dimen>
+    <dimen name="dip_56">42dip</dimen>
+    <dimen name="dip_60">45dip</dimen>
+    <dimen name="dip_64">48dip</dimen>
+    <dimen name="dip_72">54dip</dimen>
+    <dimen name="dip_80">60dip</dimen>
+    <dimen name="dip_96">72dip</dimen>
+    <dimen name="dip_100">75dip</dimen>
+    <dimen name="dip_108">81dip</dimen>
+    <dimen name="dip_128">96dip</dimen>
+    <dimen name="dip_160">120dip</dimen>
+    <dimen name="dip_196">147dip</dimen>
+    <dimen name="dip_200">150dip</dimen>
+    <dimen name="dip_240">180dip</dimen>
+    <dimen name="dip_256">192dip</dimen>
+    <dimen name="dip_300">225dip</dimen>
+    <dimen name="dip_360">270dip</dimen>
+    <dimen name="dip_400">300dip</dimen>
+    <dimen name="dip_600">400dip</dimen>
+    <dimen name="dip_800">600dip</dimen>
+
+    <!--  -->
+    <dimen name="sp_10">7.5sp</dimen>
+    <dimen name="sp_12">9sp</dimen>
+    <dimen name="sp_14">10.5sp</dimen>
+    <dimen name="sp_16">12sp</dimen>
+    <dimen name="sp_18">13.5sp</dimen>
+    <dimen name="sp_20">15sp</dimen>
+    <dimen name="sp_24">18sp</dimen>
+    <dimen name="sp_26">19.5sp</dimen>
+    <dimen name="sp_28">21sp</dimen>
+    <dimen name="sp_30">22.5sp</dimen>
+    <dimen name="sp_32">24sp</dimen>
+
+</resources>

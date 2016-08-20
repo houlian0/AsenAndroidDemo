@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 原值 -->
+    <dimen name="dip_1">1dip</dimen>
+    <dimen name="dip_2">2dip</dimen>
+    <dimen name="dip_4">4dip</dimen>
+    <dimen name="dip_6">6dip</dimen>
+    <dimen name="dip_8">8dip</dimen>
+    <dimen name="dip_10">10dip</dimen>
+    <dimen name="dip_12">12dip</dimen>
+    <dimen name="dip_14">14dip</dimen>
+    <dimen name="dip_16">16dip</dimen>
+    <dimen name="dip_18">18dip</dimen>
+    <dimen name="dip_20">20dip</dimen>
+    <dimen name="dip_24">24dip</dimen>
+    <dimen name="dip_28">28dip</dimen>
+    <dimen name="dip_30">30dip</dimen>
+    <dimen name="dip_32">32dip</dimen>
+    <dimen name="dip_36">36dip</dimen>
+    <dimen name="dip_40">40dip</dimen>
+    <dimen name="dip_48">48dip</dimen>
+    <dimen name="dip_56">56dip</dimen>
+    <dimen name="dip_60">60dip</dimen>
+    <dimen name="dip_64">64dip</dimen>
+    <dimen name="dip_72">72dip</dimen>
+    <dimen name="dip_80">80dip</dimen>
+    <dimen name="dip_96">96dip</dimen>
+    <dimen name="dip_100">100dip</dimen>
+    <dimen name="dip_108">108dip</dimen>
+    <dimen name="dip_128">128dip</dimen>
+    <dimen name="dip_148">148dip</dimen>
+    <dimen name="dip_160">160dip</dimen>
+    <dimen name="dip_196">196dip</dimen>
+    <dimen name="dip_200">200dip</dimen>
+    <dimen name="dip_240">240dip</dimen>
+    <dimen name="dip_256">256dip</dimen>
+    <dimen name="dip_300">300dip</dimen>
+    <dimen name="dip_360">360dip</dimen>
+    <dimen name="dip_400">400dip</dimen>
+    <dimen name="dip_600">600dip</dimen>
+    <dimen name="dip_800">800dip</dimen>
+
+    <!--  -->
+    <dimen name="sp_10">10sp</dimen>
+    <dimen name="sp_12">12sp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="sp_16">16sp</dimen>
+    <dimen name="sp_18">18sp</dimen>
+    <dimen name="sp_20">20sp</dimen>
+    <dimen name="sp_24">24sp</dimen>
+    <dimen name="sp_26">26sp</dimen>
+    <dimen name="sp_28">28sp</dimen>
+    <dimen name="sp_30">30sp</dimen>
+    <dimen name="sp_32">32sp</dimen>
+
+</resources>
