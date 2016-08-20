@@ -27,6 +27,9 @@
         <activity
             android:name=".ui.error.ErrorReadFileActivity"
             android:label="@string/testErrorFile" />
+        <activity
+            android:name=".ui.quickadapter.QuickAdapterActivity"
+            android:label="@string/quickAdapter" />
     </application>
 
 </manifest>
