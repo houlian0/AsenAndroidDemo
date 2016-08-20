@@ -31,7 +31,7 @@ public class MainActivity extends BaseActivity implements MainAdapter.OnMainItem
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.main);
         // 快速FindView，可在示例Demo中看到更详细的介绍
         FindViewUtil.getInstance(mContext).findViews(this, this);
 

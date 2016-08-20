@@ -35,7 +35,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.Holder> {
     public MainAdapter(Context context, List<MainItem> dataList, OnMainItemClickListener onMainItemClickListener) {
         mContext = context;
         mDataList = dataList;
-        mResId = R.layout.activity_main_item;
+        mResId = R.layout.main_item;
         this.onMainItemClickListener = onMainItemClickListener;
     }
 
