@@ -24,6 +24,9 @@
         <activity
             android:name=".ui.error.ErrorTestActivity"
             android:label="@string/testError" />
+        <activity
+            android:name=".ui.error.ErrorReadFileActivity"
+            android:label="@string/testErrorFile" />
     </application>
 
 </manifest>

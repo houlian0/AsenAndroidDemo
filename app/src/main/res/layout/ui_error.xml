@@ -17,20 +17,22 @@
 
         <Button
             android:id="@+id/btnOpen"
-            android:layout_width="match_parent"
+            android:layout_width="0dip"
             android:layout_height="wrap_content"
-            android:text="@string/openErrorList" />
+            android:layout_weight="1"
+            android:text="@string/openErrorFileList" />
 
         <Button
             android:id="@+id/btnClear"
-            android:layout_width="match_parent"
+            android:layout_width="0dip"
             android:layout_height="wrap_content"
-            android:text="@string/openErrorList" />
+            android:layout_weight="1"
+            android:text="@string/clearErrorFiles" />
     </LinearLayout>
 
     <ListView
         android:id="@+id/lvShow"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="match_parent" />
 
 </LinearLayout>

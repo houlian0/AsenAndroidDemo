@@ -1,7 +1,9 @@
 package com.asen.android.demo.ui.error;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 
@@ -58,6 +60,15 @@ public class ErrorTestActivity extends BaseActivity {
                 clickError(view);
             }
         });
+        lvShow.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                File file = mDataList.get(i);
+                Intent intent = new Intent(mContext, ErrorReadFileActivity.class);
+                intent.putExtra("file", file);
+                startActivity(intent);
+            }
+        });
     }
 
     public void clickError(View v) {
@@ -81,8 +92,10 @@ public class ErrorTestActivity extends BaseActivity {
     public void clickClear(View v) {
         // 获取程序崩溃时，异常文件保存的文件夹位置
         File errorFile = AppPath.getAppErrorFile(mContext);
-        // 删除所有异常文件
+        // 删除所有异常文件，此处为测试，此方法除了删除文件夹中的文件外，还会删除文件夹本身
         FileUtil.deleteFolder(errorFile);
+        // 创建空文件夹
+        FileUtil.createFolder(errorFile);
         // 重新获取列表信息，并刷新适配器
         clickOpen(null);
     }

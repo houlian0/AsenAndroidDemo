@@ -10,5 +10,7 @@
     <string name="openFragment">打开Fragment</string>
     <!-- -->
     <string name="testError">测试异常</string>
-    <string name="openErrorList">打开异常文件列表</string>
+    <string name="openErrorFileList">打开异常文件列表</string>
+    <string name="clearErrorFiles">清空异常文件</string>
+    <string name="testErrorFile">测试异常-异常文件读取</string>
 </resources>

@@ -32,7 +32,7 @@ public class AppApplication extends BaseApplication {
     }
 
     @Override
-    protected boolean abnormalExit() { // 不是所有的设备都可用，不过此方法在崩溃时确实会被执行
+    protected boolean abnormalExit() { // 不是每次都能成功的重新打开页面，不过此方法在崩溃时确实会被执行
         // 程序崩溃时调用，此处重新打开Demo程序主界面
         AppUtil.exitAndRestart(mContext, MainActivity.class);
         return true; // 返回：false，则以系统默认的方式处理异常；true，则不执行系统默认处理异常的方法
