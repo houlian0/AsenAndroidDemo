@@ -1,8 +1,10 @@
 package com.asen.android.demo;
 
+import com.asen.android.demo.ui.MainActivity;
 import com.asen.android.lib.base.BaseApplication;
 import com.asen.android.lib.base.global.AppData;
 import com.asen.android.lib.base.global.AppPath;
+import com.asen.android.lib.base.tool.util.AppUtil;
 import com.asen.android.lib.base.tool.util.FileUtil;
 
 import java.io.File;
@@ -30,10 +32,10 @@ public class AppApplication extends BaseApplication {
     }
 
     @Override
-    protected boolean abnormalExit() {
+    protected boolean abnormalExit() { // 不是所有的设备都可用，不过此方法在崩溃时确实会被执行
         // 程序崩溃时调用，此处重新打开Demo程序主界面
-//        AppUtil.exitAndRestart(mContext, MainActivity.class);
-        return false; // 返回：false，则以系统默认的方式处理异常；true，则不执行系统默认处理异常的方法
+        AppUtil.exitAndRestart(mContext, MainActivity.class);
+        return true; // 返回：false，则以系统默认的方式处理异常；true，则不执行系统默认处理异常的方法
     }
 
 }

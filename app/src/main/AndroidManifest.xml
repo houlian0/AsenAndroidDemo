@@ -21,6 +21,9 @@
         <activity
             android:name=".ui.afindview.AFindViewActivity"
             android:label="@string/quickFindView" />
+        <activity
+            android:name=".ui.error.ErrorTestActivity"
+            android:label="@string/testError" />
     </application>
 
 </manifest>

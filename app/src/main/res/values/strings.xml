@@ -8,4 +8,7 @@
     <string name="testClick">测试点击</string>
     <string name="testClick2">测试点击2</string>
     <string name="openFragment">打开Fragment</string>
+    <!-- -->
+    <string name="testError">测试异常</string>
+    <string name="openErrorList">打开异常文件列表</string>
 </resources>

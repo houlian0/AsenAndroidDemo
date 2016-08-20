@@ -8,7 +8,7 @@
         android:id="@+id/layoutItem"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/lightgray"
+        android:background="@drawable/selector_main_item_bg"
         android:padding="@dimen/dip_8">
 
         <ImageView
