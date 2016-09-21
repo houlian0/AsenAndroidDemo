@@ -20,6 +20,7 @@ import com.asen.android.lib.base.ui.quick.findview.FindViewUtil;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -77,6 +78,10 @@ public class SqliteTestActivity extends BaseActivity {
 
         if (info == null) {
             info = new PersonInfo(null, AppUtil.getUUid(), name, ConvertUtil.stringToInt(etAge.getText().toString(), 1), 10.2233, null, new byte[]{1, 1, 1, 12});
+        } else {
+            info.setAge(ConvertUtil.stringToInt(etAge.getText().toString(), 1));
+            info.setRegisterDate(new Date());
+            info.setPictures(new byte[]{2, 3, 5, 7});
         }
 
         personDao.createOrUpdatePerson(info);
