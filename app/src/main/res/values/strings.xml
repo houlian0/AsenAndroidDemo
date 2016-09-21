@@ -15,4 +15,13 @@
     <string name="testErrorFile">测试异常-异常文件读取</string>
     <!-- -->
     <string name="quickAdapter">快速适配器</string>
+    <!-- -->
+    <string name="sqliteTest">数据库示例</string>
+    <string name="sqliteName">姓名：</string>
+    <string name="sqliteAge">年龄：</string>
+    <string name="sqliteAdd">新增</string>
+    <string name="sqliteDelete">删除</string>
+    <string name="sqliteQuery">查询姓名</string>
+    <string name="sqliteQueryAll">查询全部</string>
+
 </resources>

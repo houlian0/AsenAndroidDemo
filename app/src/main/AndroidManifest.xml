@@ -30,6 +30,9 @@
         <activity
             android:name=".ui.quickadapter.QuickAdapterActivity"
             android:label="@string/quickAdapter" />
+        <activity
+            android:name=".ui.sqlite.SqliteTestActivity"
+            android:label="@string/sqliteTest" />
 
     </application>
 
